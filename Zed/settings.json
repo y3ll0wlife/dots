@@ -1,0 +1,157 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run the `open default settings` command
+// from the command palette or from `Zed` application menu.
+{
+    // Zed
+    "ui_font_size": 14,
+    "auto_update": true,
+    "confirm_quit": true,
+    "enable_language_server": true,
+    "journal": {
+        "path": "~",
+        "hour_format": "hour24"
+    },
+    "search": {
+        "whole_word": false,
+        "case_sensitive": false,
+        "include_ignored": false,
+        "regex": false
+    },
+    "show_call_status_icon": true,
+    "calls": {
+        "mute_on_join": false,
+        "share_on_join": false
+    },
+    "telemetry": {
+        "diagnostics": false,
+        "metrics": false
+    },
+    "assistant": {
+        "enabled": false,
+        "button": false,
+        "version": "2"
+    },
+    // Saving
+    "autosave": "on_window_change",
+    "ensure_final_newline_on_save": true,
+    "format_on_save": "on",
+    "formatter": "language_server",
+    // Theme
+    "theme": {
+        "mode": "dark",
+        "dark": "Zedokai Darker",
+        "light": "One Light"
+    },
+    // Font
+    "buffer_font_family": "Consolas",
+    "buffer_font_fallbacks": [
+        "Courier New"
+    ],
+    "buffer_font_size": 14,
+    "buffer_font_weight": 250,
+    "buffer_line_height": null,
+    // Mouse
+    "current_line_highlight": "all",
+    "cursor_blink": false,
+    "cursor_shape": "bar",
+    // Scrollbar
+    "scrollbar": {
+        "show": "always",
+        "cursors": true,
+        "git_diff": true,
+        "search_results": true,
+        "selected_symbol": true,
+        "diagnostics": true
+    },
+    // Top
+    "tab_bar": {
+        "show": true,
+        "show_nav_history_buttons": true
+    },
+    "tabs": {
+        "close_position": "right",
+        "file_icons": true,
+        "git_status": true
+    },
+    "toolbar": {
+        "breadcrumbs": true,
+        "quick_actions": false
+    },
+    // Language Server
+    "lsp": {
+        "rust-analyzer": {
+            "initialization_options": {
+                "check": {
+                    "command": "clippy" // rust-analyzer.check.command (default: "check")
+                }
+            }
+        }
+    },
+    // Coding
+    "vim_mode": false,
+    "always_treat_brackets_as_autoclosed": true,
+    "hover_popover_enabled": true,
+    "preferred_line_length": 80,
+    "remove_trailing_whitespace_on_save": true,
+    "show_completions_on_input": true,
+    "show_completion_documentation": true,
+    "completion_documentation_secondary_query_debounce": 200,
+    "show_inline_completions": true,
+    "show_whitespaces": "selection",
+    "soft_wrap": "prefer_line",
+    "unnecessary_code_fade": 0.5,
+    "tab_size": 4,
+    "inlay_hints": {
+        "enabled": true,
+        "show_type_hints": true,
+        "show_parameter_hints": true,
+        "show_other_hints": true,
+        "show_background": false,
+        "edit_debounce_ms": 0,
+        "scroll_debounce_ms": 0
+    },
+    // Styling
+    "hard_tabs": false,
+    "git": {
+        "git_gutter": "tracked_files",
+        "inline_blame": {
+            "enabled": true,
+            "delay_ms": 200
+        }
+    },
+    "indent_guides": {
+        "enabled": true,
+        "line_width": 1,
+        "active_line_width": 2,
+        "coloring": "fixed",
+        "background_coloring": "disabled"
+    },
+    // Files
+    "preview_tabs": {
+        "enabled": true,
+        "enable_preview_from_file_finder": false,
+        "enable_preview_from_code_navigation": false
+    },
+    "project_panel": {
+        "button": true,
+        "default_width": 400,
+        "dock": "left",
+        "file_icons": true,
+        "folder_icons": true,
+        "git_status": true,
+        "indent_size": 15,
+        "auto_reveal_entries": false,
+        "auto_fold_dirs": true,
+        "scrollbar": {
+            "show": "never"
+        }
+    },
+    "outline_panel": {
+        "button": false
+    },
+}

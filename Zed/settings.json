@@ -40,7 +40,7 @@
     "autosave": "on_window_change",
     "ensure_final_newline_on_save": true,
     "format_on_save": "on",
-    "formatter": "language_server",
+    "formatter": "prettier",
     // Theme
     "theme": {
         "mode": "dark",
@@ -53,7 +53,7 @@
         "Courier New"
     ],
     "buffer_font_size": 14,
-    "buffer_font_weight": 250,
+    "buffer_font_weight": 100,
     "buffer_line_height": null,
     // Mouse
     "current_line_highlight": "all",
